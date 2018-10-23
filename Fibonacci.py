@@ -1,9 +1,9 @@
-def fib(n):
+def fibonacci(n):
    n=int(input())
    if n == 1:
       return 1
    elif n == 0:   
       return 0            
    else:                      
-      return fib(n-1) + fib(n-2) 
-print (fib())
+      return fibonacci(n-1) + fibonacci(n-2) 
+print (fibonacci())
